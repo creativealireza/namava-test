@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "foxundermoon.shell-format",
+    "DavidAnson.vscode-markdownlint",
+    "aeschli.vscode-css-formatter",
+    "coenraads.bracket-pair-colorizer",
+    "naumovs.color-highlight"
+  ],
+  "unwantedRecommendations": []
+}

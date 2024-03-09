@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1709961639268" clover="3.2.0">
+  <project timestamp="1709961639268" name="All files">
+    <metrics statements="43" coveredstatements="37" conditionals="48" coveredconditionals="44" methods="18" coveredmethods="12" elements="109" coveredelements="93" complexity="0" loc="43" ncloc="43" packages="8" files="8" classes="8"/>
+    <package name="namava-login">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="styleMock.js" path="O:\projects\namava\internship\namava-login\styleMock.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="namava-login.src.components.HideEye">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="O:\projects\namava\internship\namava-login\src\components\HideEye\index.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="namava-login.src.components.ShowEye">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="O:\projects\namava\internship\namava-login\src\components\ShowEye\index.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="namava-login.src.components.Toast">
+      <metrics statements="4" coveredstatements="4" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="index.jsx" path="O:\projects\namava\internship\namava-login\src\components\Toast\index.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="5" count="39" type="stmt"/>
+        <line num="7" count="39" type="stmt"/>
+        <line num="8" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="39" type="stmt"/>
+      </file>
+    </package>
+    <package name="namava-login.src.constants">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="fa.js" path="O:\projects\namava\internship\namava-login\src\constants\fa.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="namava-login.src.pages.LoginPage">
+      <metrics statements="29" coveredstatements="24" conditionals="40" coveredconditionals="36" methods="12" coveredmethods="7"/>
+      <file name="index.jsx" path="O:\projects\namava\internship\namava-login\src\pages\LoginPage\index.jsx">
+        <metrics statements="29" coveredstatements="24" conditionals="40" coveredconditionals="36" methods="12" coveredmethods="7"/>
+        <line num="13" count="32" type="stmt"/>
+        <line num="14" count="31" type="stmt"/>
+        <line num="15" count="31" type="stmt"/>
+        <line num="16" count="31" type="stmt"/>
+        <line num="17" count="31" type="stmt"/>
+        <line num="18" count="31" type="stmt"/>
+        <line num="21" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="33" count="14" type="cond" truecount="5" falsecount="0"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="42" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="63" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="64" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="31" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="namava-login.src.services">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="postUserCredential.js" path="O:\projects\namava\internship\namava-login\src\services\postUserCredential.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="namava-login.src.utils">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="emailValidation.js" path="O:\projects\namava\internship\namava-login\src\utils\emailValidation.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

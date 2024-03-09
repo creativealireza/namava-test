@@ -1,0 +1,19 @@
+{
+  "editor.insertSpaces": true,
+
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "window.zoomLevel": 1,
+  "editor.fontSize": 14,
+  "search.exclude": {
+    "**/build": true,
+    "**/node_modules": true
+  },
+  "files.eol": "\n"
+}

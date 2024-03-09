@@ -1,0 +1,14 @@
+.eye {
+  position: absolute;
+  margin: auto 0;
+  top: 0;
+  bottom: 0;
+  margin-right: 8px;
+  cursor: pointer;
+  width: 38px;
+  padding: 6px;
+}
+
+.eye:hover {
+  border-radius: 50%;
+}

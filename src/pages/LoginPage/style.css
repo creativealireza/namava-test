@@ -1,0 +1,205 @@
+.login-page {
+  width: 100%;
+  min-width: 100%;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 12px;
+  text-align: right;
+  margin-bottom: 28px;
+  color: #aaaaaa;
+}
+
+.email-section,
+.password-section {
+  width: 100%;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.email-prefix,
+.password-prefix {
+  height: 20px;
+  padding: 0 16px;
+  font-size: 12px;
+  margin-top: 0;
+  text-align: right;
+  margin-bottom: 6px;
+}
+
+.email-wrapper,
+.password-wrapper {
+  background-color: rgb(55, 56, 62);
+  border-radius: 5px;
+}
+
+.email-box,
+.password-box {
+  color: #ffffff;
+  width: 100%;
+  display: table;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  padding: 1px;
+}
+
+input:-webkit-autofill {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+.email-input,
+.password-input {
+  float: left;
+  width: 100%;
+  border: 0;
+  padding: 14px 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  direction: ltr;
+  text-align: right;
+  outline: 0;
+  caret-color: #fff;
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+.submit-login {
+  width: 100%;
+  margin: 40px 0;
+  background: #1993ff;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-disabled {
+  background: #aaaaaa;
+  cursor: auto;
+}
+
+.forgot-password,
+.login-phone {
+  display: block;
+  text-align: center;
+}
+
+.forgot-password {
+  margin-bottom: 40px;
+}
+
+.input-direction {
+  text-align: left;
+}
+
+/* header section */
+.namava-logo {
+  width: 64px;
+  height: 32px;
+  vertical-align: bottom;
+  position: relative;
+  right: 0;
+}
+
+.sign-up-title {
+  padding: 10px 20px;
+  color: #ffffff;
+  background: #37383e;
+  border-radius: 5px;
+}
+
+.sign-up-url {
+  position: absolute;
+  left: 0;
+}
+
+.header {
+  position: relative;
+  padding-top: 50px;
+}
+
+/* @media queries */
+@media (min-width: 360px) {
+  .login-page {
+    background: linear-gradient(#121212 55%, #1993ff);
+  }
+  .header,
+  .login-box {
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  .login-box {
+    width: 280px;
+    border-radius: 10px;
+    padding: 40px 0 70px 0;
+    margin-top: 54px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .forgot-password > span,
+  .login-phone > span {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 800px) {
+  .login-page {
+    background: linear-gradient(180deg, #121212 40%, #1993ff 150%);
+  }
+
+  .header,
+  .login-box {
+    width: 440px;
+  }
+
+  .login-box {
+    background: #222327;
+    width: 440px;
+    padding: 40px 40px 70px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .forgot-password > span,
+  .login-phone > span {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 1280px) {
+  .login-page {
+    background: radial-gradient(at bottom, #1993ff, #121212 70%);
+  }
+
+  .header,
+  .login-box {
+    width: 500px;
+  }
+
+  .login-box {
+    width: 500px;
+  }
+}
